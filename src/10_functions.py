@@ -2,11 +2,28 @@
 
 # YOUR CODE HERE
 
+
+def is_even(nu):
+    if nu % 2 == 0:
+        return True
+    else:
+        return False
+
+
 # Read a number from the keyboard
 num = input("Enter a number: ")
 num = int(num)
+print(is_even(num))
+
 
 # Print out "Even!" if the number is even. Otherwise print "Odd"
 
 # YOUR CODE HERE
+def is_even_(nu):
+    if nu % 2 == 0:
+        return "Even!"
+    else:
+        return "Odd"
 
+
+print(is_even_(num))
